@@ -1,0 +1,60 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My first Webpage</title>
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: justify;
+      background-color: #f7f9fc;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    p {
+      color: #34495e;
+      font-size: 18px;
+    }
+    button {
+      background-color: #3498db;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #2980b9;
+    }
+    @media (max-width: 600px) {
+      body {
+        background-color: #dfe6e9;
+      }
+      h1 {
+        font-size: 24px;
+      }
+      p {
+        font-size: 16px;
+      }
+      button {
+        width: 100;
+      }
+    }
+  </style>
+  <body>
+    <h1>Welcome to My Webpage</h1>
+    <p>This is a paragraph explaining what the webpage is about.</p>
+    <button id="clickButton">Click Me!</button>
+    <script>
+      document
+        .getElementById("clickButton")
+        .addEventListener("click", function () {
+          alert("Button clicked! Welcome to the interactive webpage!");
+        });
+    </script>
+  </body>
+</html>
