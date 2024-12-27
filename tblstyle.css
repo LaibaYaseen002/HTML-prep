@@ -1,0 +1,31 @@
+h1 {
+  color: burlywood;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#Students {
+  text-align: center;
+  text-decoration: none;
+  margin: 60px;
+  width: 40%;
+}
+table th,
+td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 8px;
+}
+#Students th {
+  background-color: grey;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: white;
+}
+#Students tr:nth-child(even) {
+  background-color: gray;
+}
+#Students tr:hover {
+  background-color: rgb(130, 145, 173);
+}

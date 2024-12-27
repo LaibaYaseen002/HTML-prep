@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+.card {
+  flex: 1 1 calc(30% - 20px);
+  border: 1px solid #b8b2b2;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  color: rgb(69, 129, 109);
+  margin-top: 10px;
+}
+.card h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+.card p {
+  color: #422f2f;
+}
+h1 {
+  color: #995d5d;
+  text-align: center;
+}
